@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomPersonView" customModule="xib_test" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="qwb-DY-QQ9"/>
+                <outlet property="personImage" destination="nyY-8K-HUo" id="ZyZ-QN-xUD"/>
+                <outlet property="personLabel" destination="f3e-Lu-eHC" id="Xl1-uW-mOG"/>
+                <outlet property="personTextView" destination="BQb-5W-ohM" id="DxD-ex-jlM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="143"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3e-Lu-eHC">
+                    <rect key="frame" x="151" y="8" width="224" height="23"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQb-5W-ohM">
+                    <rect key="frame" x="151" y="39" width="224" height="96"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">One of the key requirements of a successful software development company is a high level of experience with the relevant tools and technologies. 
+At Edsson we are committed to offering our customers services across all major software platforms used in the creation and implementation of business software. </string>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Serhii" translatesAutoresizingMaskIntoConstraints="NO" id="nyY-8K-HUo">
+                    <rect key="frame" x="8" y="8" width="135" height="127"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="135" id="gOr-Aq-wEZ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="BQb-5W-ohM" secondAttribute="bottom" constant="8" id="5I2-Zi-RwC"/>
+                <constraint firstItem="nyY-8K-HUo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="CZw-TN-dce"/>
+                <constraint firstItem="nyY-8K-HUo" firstAttribute="top" secondItem="f3e-Lu-eHC" secondAttribute="top" id="FZX-rp-EHR"/>
+                <constraint firstItem="nyY-8K-HUo" firstAttribute="bottom" secondItem="BQb-5W-ohM" secondAttribute="bottom" id="Hy2-Dk-34f"/>
+                <constraint firstItem="BQb-5W-ohM" firstAttribute="leading" secondItem="f3e-Lu-eHC" secondAttribute="leading" id="IFo-WT-gcI"/>
+                <constraint firstItem="f3e-Lu-eHC" firstAttribute="leading" secondItem="nyY-8K-HUo" secondAttribute="trailing" constant="8" id="jvu-f3-BfU"/>
+                <constraint firstItem="BQb-5W-ohM" firstAttribute="top" secondItem="f3e-Lu-eHC" secondAttribute="bottom" constant="8" id="nyt-FU-FsZ"/>
+                <constraint firstItem="nyY-8K-HUo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="oex-aR-IOZ"/>
+                <constraint firstItem="BQb-5W-ohM" firstAttribute="trailing" secondItem="f3e-Lu-eHC" secondAttribute="trailing" id="urQ-Ai-tc4"/>
+                <constraint firstAttribute="trailing" secondItem="f3e-Lu-eHC" secondAttribute="trailing" constant="8" id="xFN-jn-vkm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="332.5" y="198.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Serhii" width="302" height="180"/>
+    </resources>
+</document>

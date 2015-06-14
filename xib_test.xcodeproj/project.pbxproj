@@ -13,6 +13,8 @@
 		FAC04B7F1B2DE7BF007C0C17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC04B7E1B2DE7BF007C0C17 /* Images.xcassets */; };
 		FAC04B821B2DE7BF007C0C17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC04B801B2DE7BF007C0C17 /* LaunchScreen.xib */; };
 		FAC04B8E1B2DE7C0007C0C17 /* xib_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC04B8D1B2DE7C0007C0C17 /* xib_testTests.swift */; };
+		FAC04B981B2DE826007C0C17 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC04B971B2DE826007C0C17 /* View.xib */; };
+		FAC04B9A1B2DEB08007C0C17 /* CustomPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC04B991B2DEB08007C0C17 /* CustomPersonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FAC04B871B2DE7C0007C0C17 /* xib_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xib_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC04B8C1B2DE7C0007C0C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC04B8D1B2DE7C0007C0C17 /* xib_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xib_testTests.swift; sourceTree = "<group>"; };
+		FAC04B971B2DE826007C0C17 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		FAC04B991B2DEB08007C0C17 /* CustomPersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPersonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		FAC04B691B2DE7BF007C0C17 = {
 			isa = PBXGroup;
 			children = (
+				FAC04B991B2DEB08007C0C17 /* CustomPersonView.swift */,
+				FAC04B971B2DE826007C0C17 /* View.xib */,
 				FAC04B741B2DE7BF007C0C17 /* xib_test */,
 				FAC04B8A1B2DE7C0007C0C17 /* xib_testTests */,
 				FAC04B731B2DE7BF007C0C17 /* Products */,
@@ -192,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC04B981B2DE826007C0C17 /* View.xib in Resources */,
 				FAC04B7D1B2DE7BF007C0C17 /* Main.storyboard in Resources */,
 				FAC04B821B2DE7BF007C0C17 /* LaunchScreen.xib in Resources */,
 				FAC04B7F1B2DE7BF007C0C17 /* Images.xcassets in Resources */,
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC04B9A1B2DEB08007C0C17 /* CustomPersonView.swift in Sources */,
 				FAC04B7A1B2DE7BF007C0C17 /* ViewController.swift in Sources */,
 				FAC04B781B2DE7BF007C0C17 /* AppDelegate.swift in Sources */,
 			);
